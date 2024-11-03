@@ -7,8 +7,8 @@ const WhatWeDo = () => {
         <div className='relative w-screen h-[32rem] flex justify-center items-center bg-teal'>
             <section className='relative w-[95vw] h-[30rem] flex flex-col bg-teal'>
                 <div className='relative w-full h-[4rem] flex flex-row justify-center items-center text-xl md:text-2xl lg:text-4xl bg-teal c-orange font-medium'>Always be on Clock</div>
-                <div className='relative w-[80%] left-[10%] h-[26rem] flex flex-row justify-center items-center rounded-2xl'>
-                    <div className='relative grid grid-cols-2 gap-[10%] px-[1rem] md:px-[2rem] lg:px-[4rem]'>
+                <div className='relative w-[80%] left-[10%] h-[26rem] flex flex-row justify-center items-center rounded-2xl bg-grey'>
+                    <div className='relative grid grid-cols-2 gap-[10%] px-[1rem] md:px-[2rem] lg:px-[4rem] bg-grey'>
                     {cardData.map((item) => (
                         <Card key={item.id} text={item.text} buttonText={item.buttonText} link={item.link} />
                     ))}

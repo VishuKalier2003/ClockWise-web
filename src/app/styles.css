@@ -4,9 +4,16 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-    font-family: "JetBrains Mono", serif; font-optical-sizing: auto; font-weight: 200; font-style: normal;
+html, body {
+    overflow-x: hidden;
     background-color: #F5F5F7;
+}
+
+* {
+    font-family: "JetBrains Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
 }
 
 .bg-grey {
