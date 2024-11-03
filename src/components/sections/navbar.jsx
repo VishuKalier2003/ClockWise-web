@@ -10,7 +10,7 @@ const Navbar = () => {
                     <Image src="/clockwise-icon.png" width={50} height={50} className="bg-teal object-fit" alt="Clockwise Logo" />
                 </div>
                 <div className="relative flex flex-row justify-start items-center bg-teal">
-                    <Link href="/" className="relative c-orange bg-teal playwrite-600 text-xl md:text-2xl lg:text-[1.75rem]">Clockwise</Link>
+                    <Link href="/" className="relative c-orange bg-teal playwrite-600 text-xl md:text-2xl lg:text-[1.75rem]">ClockWise</Link>
                 </div>
             </section>
             <section className="relative w-[80%] h-[4rem] bg-teal flex flex-row justify-center">
