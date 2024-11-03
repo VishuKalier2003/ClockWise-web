@@ -15,7 +15,7 @@ const Navbar = () => {
             </section>
             <section className="relative w-[80%] h-[4rem] bg-teal flex flex-row justify-center">
                 <div className="relative w-[98%] h-[4rem] bg-teal">
-                    <section className="relative left-[35%] w-[65%] h-[4rem] bg-teal flex flex-row items-center justify-around" id="nav-tag">
+                    <section className="relative left-[60%] w-[40%] h-[4rem] bg-teal flex flex-row items-center justify-around" id="nav-tag">
                         <Link href="/" className="bg-teal c-orange hover:text-orange-500 text-lg jetbrains-mono-3">home</Link>
                         <Link href="/manager" className="bg-teal c-orange hover:text-orange-500 text-lg jetbrains-mono-3">manager</Link>
                         <Link href="/team" className="bg-teal c-orange hover:text-orange-500 text-lg jetbrains-mono-3">team</Link>
